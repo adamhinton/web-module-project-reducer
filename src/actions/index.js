@@ -5,7 +5,6 @@ export const CHANGE_OPERATION = "CHANGE_OPERATION";
 export const CLEAR_DISPLAY= "CLEAR_DISPLAY";
 export const MEMORY_ADD = 'MEMORY_ADD';
 export const MEMORY_APPLY = 'MEMORY_APPLY';
-    //I couldn't work out the memory_apply bit unfortunately
 export const MEMORY_CLEAR = 'MEMORY_CLEAR';
 
 export const addOne = () => {
@@ -30,7 +29,7 @@ export const addMemory = () =>{
 
 export const applyMemory = () =>{
     return({type: MEMORY_APPLY})
-        //I couldn't work out the memory_apply bit unfortunately
+
 }
 
 export const clearMemory = () =>{
